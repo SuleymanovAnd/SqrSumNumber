@@ -9,7 +9,7 @@ Number SqrSum(Number a, Number b) {
 
 template <typename Number, typename AnotherNumber>
 
-// вывод всегда будет с числом которое передали первым, хоть это и не явное преобразование
+// РІС‹РІРѕРґ РІСЃРµРіРґР° Р±СѓРґРµС‚ СЃ С‡РёСЃР»РѕРј РєРѕС‚РѕСЂРѕРµ РїРµСЂРµРґР°Р»Рё РїРµСЂРІС‹Рј, С…РѕС‚СЊ СЌС‚Рѕ Рё РЅРµ СЏРІРЅРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ
 Number SqrSum(Number a, AnotherNumber b) {
 	return pow(a + b, 2);
 }
